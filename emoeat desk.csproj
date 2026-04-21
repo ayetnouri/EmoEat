@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<RootNamespace>emoeat_desk</RootNamespace>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+ <ItemGroup>
+		<Page Remove="..\..\..\OneDrive\المستندات\Bureau\vsproject.xaml" />
+		<Compile Remove="..\..\..\OneDrive\المستندات\Bureau\vsproject.xaml" />
+		<Compile Remove="..\..\..\OneDrive\المستندات\Bureau\vsproject.xaml.cs" />
+	</ItemGroup>
+</Project>
